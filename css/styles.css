@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0;
+  font-size: 90px;
+  font-family: "Dancing Script", cursive;
+  color: #66bfbf;
+}
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+#fontweight {
+  font-weight: normal;
+}
+h3,
+a {
+  color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.skill-row p {
+  line-height: 2;
+}
+
+.webSkill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.churchSkill {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.topContainer {
+  background-color: #eaf6f6;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.textContainer {
+  position: relative;
+  top: 100px;
+}
+#picture {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+.topCloud {
+  position: absolute;
+  top: 30px;
+  right: 300px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  top: 350px;
+}
+
+.mountain {
+  position: absolute;
+  bottom: 0;
+  right: 350px;
+}
+
+#profileText {
+  width: 450px;
+  height: 120px;
+  color: #40514e;
+  font-weight: bold;
+  margin: 0 auto 40px;
+  font-size: 17px;
+  text-align: center;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+.contact-me {
+  margin-bottom: 60px;
+}
+
+.contactP {
+  margin: 10px;
+  color: #40514e;
+  font-weight: bold;
+}
+#contactH3 {
+  margin: 50px 0;
+}
+.tinyCircles {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #eaf6f6;
+  display: inline-block;
+  margin: 3px;
+}
+
+.contact {
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #66bfbf;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 10px;
+  width: 150px;
+  height: 30px;
+  margin-top: 30px;
+}
+
+#inTouch {
+  margin-top: 40px;
+}
+
+/*Bottom Container*/
+.bottom-container {
+  background-color: #66bfbf;
+  width: 100%;
+  height: 160px;
+}
+#copyright {
+  color: #eaf6f6;
+  font-size: 18px;
+  position: relative;
+  top: 60px;
+}
+
+.footer-link {
+  color: #11999e;
+  margin: 20px;
+  position: relative;
+  top: 40px;
+  font-size: 25px;
+  text-decoration: none;
+}
